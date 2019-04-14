@@ -21,6 +21,7 @@
     "jquery": "^3.4.0",
     "subunit": "^0.5.4",
     "three": "^0.103.0",
+    "threex.domevents": "^1.0.1",
     "topojson": "^3.0.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
