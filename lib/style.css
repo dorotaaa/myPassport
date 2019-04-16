@@ -1,16 +1,33 @@
-#country {
+/* #container {
+  height: 100vh;
+  cursor: pointer;
+} */
+
+body {
+  font-family: passport;
+  color: white;
+  margin: 0;
+  overflow: hidden;
+}
+
+.title-div {
   position: fixed;
-  left: 0;
-  top: 0;
-  min-width: 100px;
-  text-align: center;
-  padding: 5px 12px;
-  font-family: monospace;
-  background: none;
+  top: 10px;
+  left: 3%;
+  z-index: 500;
+}
+
+.title {
+  position: relative;
+  font-size: 65px;
+  margin: 0;
+}
+
+#country {
+  position: absolute;
   display: none;
-  opacity: 0;
-  border: 1px solid black;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-  transition: opacity 0.25s linear;
-  border-radius: 3px;
+  margin: 0;
+  font-size: 20px;
+  padding: 0px 10px 10px 10px;
+  transition: transform 1.5s;
 }
