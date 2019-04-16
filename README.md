@@ -5,9 +5,10 @@ myPassport is a 3d visualization of which countries one can travel to 'openly' d
 
 ## Functionality & MVP
 1. Users will be able to view and interact with a 3d model of the globe 
-2. Users will be able click on an initial country and see what countries they can travel to 'openly' given they hold a passport from that initial country.
+2. Users will be able click on an initial country and see what countries they can travel to 'openly', given they hold a passport from that initial country.
 
 ## Technologies & Libraries 
 1. Three.js
-2. D3.js
+2. geoJson
 3. Vanilla JavaScript
+4. Passport Index
