@@ -1,6 +1,9 @@
-#container {
-  cursor: pointer;
-}
+/* #gameover {
+   height: 100%;
+   width: 100%;
+   color: white;
+} */
+
 
 body {
   font-family: passport;
@@ -26,7 +29,18 @@ body {
   position: absolute;
   display: none;
   margin: 0;
+  font-size: 30px;
+  padding: 0px 10px 10px 10px;
+  transition: transform 1.5s;
+  color: red;
+}
+
+#sriLanka {
+  position: absolute;
+  display: none;
+  margin: 0;
   font-size: 20px;
   padding: 0px 10px 10px 10px;
   transition: transform 1.5s;
+  color: green;
 }
