@@ -44,3 +44,10 @@ body {
   transition: transform 1.5s;
   color: green;
 }
+
+#refresh {
+  padding: 0px 10px 10px 10px;
+  transition: transform 1.5s;
+  color: magenta;
+  margin-top: 70px;
+}
