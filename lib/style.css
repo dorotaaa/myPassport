@@ -22,12 +22,17 @@ body {
 }
 
 .title {
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
   font-size: 65px;
   margin: 0;
   color: white;
+  text-transform: uppercase;
 }
 
+.title img{
+  height: 65px;
+}
 
 #country {
   font-family: phosphate;
