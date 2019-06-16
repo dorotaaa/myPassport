@@ -19,6 +19,7 @@ body {
   top: 10px;
   left: 3%;
   z-index: 500;
+  color: white;
 }
 
 .title {
@@ -44,6 +45,19 @@ body {
   transition: transform 1.5s;
   color: white;
 }
+
+#destinations {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  position: absolute;
+  display: none;
+  margin: 0;
+  padding: 0px 10px 10px 10px;
+  transition: transform 1.5s;
+  color: white;
+}
+
 
 
 /* .loader,
