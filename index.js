@@ -1,8 +1,7 @@
 import initGlobe from './lib/main';
 
+document.getElementById("loader"),
 document.addEventListener('DOMContentLoaded', () => {
-    
-    const loading = document.getElementById("loader");
 
     initGlobe(document.getElementById('globe-app'));
 });
