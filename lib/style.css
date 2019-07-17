@@ -71,13 +71,13 @@ body {
   color: aquamarine;
 }
 
-#no-data {
-  background-color: transparent;
+#loader {
+  /* background-color: transparent;
   font-size: 30px;
   position: absolute;
   left: 42.5%;
   top: 44%;
-  padding: 20px 20px;
+  padding: 20px 20px; */
   visibility: visible;
 }
 
