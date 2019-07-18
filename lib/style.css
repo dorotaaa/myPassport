@@ -71,7 +71,7 @@ body {
   color: aquamarine;
 }
 
-#loader {
+.loader {
   /* background-color: transparent;
   font-size: 30px;
   position: absolute;
